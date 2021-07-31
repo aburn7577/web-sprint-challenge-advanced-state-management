@@ -3,7 +3,7 @@ import { START_FETCH, SUCCESSFUL_FETCH, ERROR, ADDING_SMURF, FAILED_FETCH } from
 export const initialState = {
     smurf: [],
     loading: false,
-    errorMessage: ''
+    errorMessage: 'all Fields need to be filled'
 }
 
 const reducer = (state = initialState, action) => {
@@ -32,7 +32,7 @@ const reducer = (state = initialState, action) => {
         case ERROR:
             return {
                 ...state,
-                error: action.payload
+                errorMessage: action.payload
             }
         default:
             return state;

@@ -20,7 +20,7 @@ export const fetchSmurfs = () => dispatch => {
 export function addSmurf(newSmurf) {
     return { type: ADDING_SMURF, payload: newSmurf }
 }
-export function error(err) {
+export function setError(err) {
     return { type: FAILED_FETCH, payload: err }
 }
 

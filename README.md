@@ -26,34 +26,34 @@ In this challenge, you are to build a Smurfs village database utilizing Redux as
 * [X] Create a new working branch: git checkout -b `<firstName-lastName>`.
 * [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 * [X] Push commits: git push origin `<firstName-lastName>`.
-* [ ] **RUN** `npm install` to install your dependencies.
-* [ ] **RUN** `npm start` to start your application.
+* [X] **RUN** `npm install` to install your dependencies.
+* [X] **RUN** `npm start` to start your application.
 
 ### Task 2: CodeGrade Setup
 
-* [ ] Open the assignment in Canvas and following along with the attached document [here.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374).
-* [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key, making sure your deployment is set to your `<firstName-lastName>`.
-* [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`
-* [ ] Check to see that Codegrade has accepted your git submission.
+* [X] Open the assignment in Canvas and following along with the attached document [here.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374).
+* [X] Follow instructions to set up Codegrade's Webhook and Deploy Key, making sure your deployment is set to your `<firstName-lastName>`.
+* [X] Push your first commit: `git commit --allow-empty -m "first commit" && git push`
+* [X] Check to see that Codegrade has accepted your git submission.
 
 ### Task 3: Project Requirements
 
  Your finished project must include all of the following requirements. **Unlike other projects, the local server used here can not be accessed through the browser. It is started automatically and without the need for starting a server.js file. Feel free to ignore any messages related to MSW or mock service workers. For this and the rest of your sprint challenges, test the functioning of the server directly through your axios calls.**
 
 #### reducers/index.js
-  Add in the needed state and reducer cases to hold and modify smurf error messages, loading status and smurf data. **If at all possible, add in action cases one at a time, instead of all at once. Test your state connects and reducer cases as nessisary.**
+  Add in the needed state and reducer cases to hold and modify smurf error messages, loading status and smurf data. **If at all possible, add in action cases one at a time, instead of all at once. Test your state connects and reducer cases as necessary.**
 
-  * [ ] Adds the following state values into the initialState:
+  * [X] Adds the following state values into the initialState:
       - an array of smurfs
       - a boolean indicating if the app is loading
       - a string indicating a possible error message
 
-  * [ ] Add in the arguments needed to complete a standard reducer function.
-  * [ ] Add in a reducer case to accommodate the start of a smurf fetch.
-  * [ ] Add in a reducer case to accommodate the successful smurf api fetch.
-  * [ ] Add in a reducer cases to accommodate the failed smurf api fetch.
-  * [ ] Add in a reducer case to accommodate adding a smurf (including the name, nickname, position, description and an internally generated id) into your smurf list.
-  * [ ] Add in a reducer case that adds in a value to the error message.
+  * [X] Add in the arguments needed to complete a standard reducer function.
+  * [X] Add in a reducer case to accommodate the start of a smurf fetch.
+  * [X] Add in a reducer case to accommodate the successful smurf api fetch.
+  * [X] Add in a reducer cases to accommodate the failed smurf api fetch.
+  * [X] Add in a reducer case to accommodate adding a smurf (including the name, nickname, position, description and an internally generated id) into your smurf list.
+  * [X] Add in a reducer case that adds in a value to the error message.
 
 #### index.js
   Connect your application to reducer through redux with the thunk and logger middleware packages attached.
